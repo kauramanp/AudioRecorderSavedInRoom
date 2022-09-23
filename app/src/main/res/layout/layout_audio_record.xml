@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/margin_10dp"
+        android:text="Save" />
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_margin="@dimen/margin_10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Cancel" />
+</LinearLayout>
+</layout>
